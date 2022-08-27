@@ -1,0 +1,41 @@
+.divprincipal{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+    justify-content: center;
+    text-align: center;
+}
+
+.BackgroundDex{
+    margin: 0;
+    padding: 0;
+    background: url(../image/backgroudDex.png) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    overflow-y: scroll;
+}
+
+.container920{
+    margin: 0;
+    margin-top: 200px;
+    width: 920px;
+    background-color: white;
+    border-top: double 3px rgb(63, 124, 255);
+    border-left: double 3px rgb(63, 124, 255);
+    border-right: double 3px rgb(63, 124, 255);
+    border-radius: 15px 15px 0px 0px;
+    /* // */
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding: 20px;
+    position: absolute;
+}
