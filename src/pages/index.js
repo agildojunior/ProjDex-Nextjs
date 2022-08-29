@@ -11,53 +11,9 @@ export default function Home() {
       <div className={styles.BackgroundDex}>
         <Navbar></Navbar>
         <div className={styles.container920}>
-          <a>aaa</a>
-          <a>aaa</a>
-          <a>aaa</a>
-          <a>aaa</a>
-          <a>aaa</a>
-          <a>aaa</a>
-          <a>aaa</a>
-          <a>aaa</a>
-          <a>aaa</a>
-          <a>aaa</a>
-          <a>aaa</a>
-          <a>aaa</a>
-          <a>aaa</a>
-          <a>aaa</a>
-          <a>aaa</a>
-          <a>aaa</a>
-          <a>aaa</a>
-          <a>aaa</a>
-          <a>aaa</a>
-          <a>aaa</a>
-          <a>aaa</a>
-          <a>aaa</a>
-          <a>aaa</a>
-          <a>aaa</a>
-          <a>aaa</a>
-          <a>aaa</a>
-          <a>aaa</a>
-          <a>aaa</a>
-          <a>aaa</a>
-          <a>aaa</a>
-          <a>aaa</a>
-          <a>aaa</a>
-          <a>aaa</a>
-          <a>aaa</a>
-          <a>aaa</a>
-          <a>aaa</a>
-          <a>aaa</a>
-          <a>aaa</a>
-          <a>aaa</a>
-          <a>aaa</a>
-          <a>aaa</a>
-          <a>aaa</a>
-          <a>aaa</a>
-          <a>aaa</a>
-          <a>aaa</a>
-          <a>aaa</a>
-          <a>aaa</a>
+          
+          
+
         </div>
         <div className={styles.logoPrincipal}>
           <Image src={img} width='580px' height='260px'  />
