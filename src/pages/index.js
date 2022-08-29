@@ -60,7 +60,7 @@ export default function Home() {
           <a>aaa</a>
         </div>
         <div className={styles.logoPrincipal}>
-          <Image src={img} width='820px' height='350px'  />
+          <Image src={img} width='580px' height='260px'  />
         </div>
       </div>
     </div>

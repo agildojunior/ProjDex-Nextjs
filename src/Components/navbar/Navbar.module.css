@@ -9,10 +9,12 @@
     box-shadow: 0px 0px 14px 3px rgba(0,0,0,0.5);
     width: 100%;
 }
+
 .navegadordiv1{
     display: flex;
     height: 33px;
 }
+
 .navegadordiv2{
     width: 100%;
     display: flex;
@@ -20,7 +22,6 @@
     text-align: center;
     justify-content: end;
 }
-
 
 .linav{
     list-style: none;
@@ -32,6 +33,17 @@
     border-left: 1px solid rgb(46, 48, 56);
     width: 100px;
 }
+
+.linavimg{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    padding-top: 3px;
+    padding-right: 10px;
+}
+
 .anav{
     margin: 7px 20px 0px 20px;
     text-decoration: none;
@@ -42,6 +54,7 @@
     justify-content: center;
     text-shadow: 1px 1px 2px rgba(0,0,0,0.50)
 }
+
 .anav:hover{
     color: rgb(113, 122, 171);
 }

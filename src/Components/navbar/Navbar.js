@@ -1,4 +1,6 @@
 import Link from 'next/link'
+import img from '../../../public/image/bolapok.png'
+import Image from 'next/image'
 import styles from './Navbar.module.css'
 
 export default function Navbar() {
@@ -6,6 +8,11 @@ export default function Navbar() {
             <ul className={styles.navegador}>
                 
                 <div className={styles.navegadordiv1}>
+                    <li className={styles.linavimg}>
+                        <a>
+                            <Image src={img} width='30px' height='30px'  />
+                        </a>
+                    </li>
                     <li className={styles.linav}>
                         <Link href="#">
                             <a className={styles.anav}>Inicio</a>

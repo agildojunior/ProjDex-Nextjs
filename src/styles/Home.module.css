@@ -40,5 +40,28 @@
 }
 
 .logoPrincipal{
+    margin-top: 33px;
     position: absolute;
+    animation: movecimabaixo 5s linear infinite;
+    animation-delay: 1000ms;
+}
+@keyframes movecimabaixo {
+    0% {
+        transform: translateX(0px);
+        rotate: 2deg;
+    }
+    25% {
+        transform: translateX(0px) translateY(5px);
+    }
+    50% {
+        transform: translateY(0px);
+        rotate: -2deg;
+    }
+    75% {
+        transform: translateX(0px) translateY(5px);
+    }
+    100% {
+        transform: translateX(0px);
+        rotate: 2deg;
+    }
 }
