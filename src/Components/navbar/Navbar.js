@@ -28,12 +28,12 @@ export default function Navbar() {
                     </li>
                     <li className={styles.linav}>
                         <Link href="#">
-                            <a className={styles.anav}>Times</a>
+                            <a className={styles.anav}>Tipos</a>
                         </Link>
                     </li>
                     <li className={styles.linav}>
                         <Link href="#">
-                            <a className={styles.anav}>Sobre</a>
+                            <a className={styles.anav}>Pokebolas</a>
                         </Link>
                     </li>
                 </div>

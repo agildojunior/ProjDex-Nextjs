@@ -4,6 +4,7 @@ import styles from '../styles/Home.module.css'
 import Link from 'next/link'
 import img from '../../public/image/PokemikioLogo.png'
 import Navbar from '../Components/navbar/Navbar'
+import Fotoconteudo from '../Components/Fotoconteudo/Fotoconteudo'
 
 export default function Home() {
   return (
@@ -11,8 +12,7 @@ export default function Home() {
       <div className={styles.BackgroundDex}>
         <Navbar></Navbar>
         <div className={styles.container920}>
-          
-          
+          <Fotoconteudo></Fotoconteudo>
 
         </div>
         <div className={styles.logoPrincipal}>
