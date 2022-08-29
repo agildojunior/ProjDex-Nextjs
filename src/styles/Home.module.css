@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-
     justify-content: center;
     text-align: center;
 }
@@ -10,7 +9,7 @@
 .BackgroundDex{
     margin: 0;
     padding: 0;
-    background: url(../image/backgroudDex.png) no-repeat;
+    background: url(../../public/image/fundo3.png) no-repeat;
     background-size: cover;
     background-position: center center;
     font-family: sans-serif;
@@ -25,17 +24,21 @@
 
 .container920{
     margin: 0;
-    margin-top: 200px;
-    width: 920px;
-    background-color: white;
-    border-top: double 3px rgb(63, 124, 255);
-    border-left: double 3px rgb(63, 124, 255);
-    border-right: double 3px rgb(63, 124, 255);
-    border-radius: 15px 15px 0px 0px;
+    margin-top: 185px;
+    width: 960px;
+    background-color: rgb(50, 53, 62);
+    border-radius: 5px 5px 0px 0px;
     /* // */
     display: flex;
     text-align: center;
+    align-items: center;
     flex-direction: column;
     padding: 20px;
+    position: absolute;
+    -webkit-box-shadow: 0px 0px 14px 3px rgba(0,0,0,0.5); 
+    box-shadow: 0px 0px 14px 3px rgba(0,0,0,0.5);
+}
+
+.logoPrincipal{
     position: absolute;
 }

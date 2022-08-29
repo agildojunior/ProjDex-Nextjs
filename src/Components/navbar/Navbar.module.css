@@ -1,0 +1,47 @@
+.navegador{
+    display: flex;
+    padding-left: 200px;
+    padding-right: 200px;
+    align-items: center;
+    background-color: rgb(50, 53, 62);
+    height: 33px;
+    -webkit-box-shadow: 0px 0px 14px 3px rgba(0,0,0,0.5); 
+    box-shadow: 0px 0px 14px 3px rgba(0,0,0,0.5);
+    width: 100%;
+}
+.navegadordiv1{
+    display: flex;
+    height: 33px;
+}
+.navegadordiv2{
+    width: 100%;
+    display: flex;
+    height: 33px;
+    text-align: center;
+    justify-content: end;
+}
+
+
+.linav{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    border-right: 1px solid rgb(46, 48, 56);
+    border-left: 1px solid rgb(46, 48, 56);
+    width: 100px;
+}
+.anav{
+    margin: 7px 20px 0px 20px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    transition: 0.3s;
+    text-align: center;
+    justify-content: center;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.50)
+}
+.anav:hover{
+    color: rgb(113, 122, 171);
+}
