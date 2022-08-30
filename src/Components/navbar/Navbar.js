@@ -14,7 +14,7 @@ export default function Navbar() {
                         </a>
                     </li>
                     <li className={styles.linav}>
-                        <Link href="#">
+                        <Link href="/">
                             <a className={styles.anav}>Inicio</a>
                         </Link>
                     </li>
@@ -22,17 +22,17 @@ export default function Navbar() {
 
                 <div className={styles.navegadordiv2}>
                     <li className={styles.linav}>
-                        <Link href="#">
-                            <a className={styles.anav}>Info</a>
+                        <Link href="/Pokemons">
+                            <a className={styles.anav}>Pokemons</a>
                         </Link>
                     </li>
                     <li className={styles.linav}>
-                        <Link href="#">
+                        <Link href="/Tipos">
                             <a className={styles.anav}>Tipos</a>
                         </Link>
                     </li>
                     <li className={styles.linav}>
-                        <Link href="#">
+                        <Link href="/Pokebolas">
                             <a className={styles.anav}>Pokebolas</a>
                         </Link>
                     </li>

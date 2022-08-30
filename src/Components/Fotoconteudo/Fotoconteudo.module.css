@@ -22,6 +22,12 @@
     background: linear-gradient(transparent, black);
     opacity: 0.8;
     transition: all 0.5s ease-in-out;
+    bottom: 0px;
+    left: 0px;
+}
+.overflow:hover{
+    background: linear-gradient(transparent, black);
+    opacity: 0.2;
 }
 .conteudo{
     position: absolute;

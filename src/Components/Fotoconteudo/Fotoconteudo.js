@@ -10,19 +10,18 @@ export default function Fotoconteudo() {
         <div className={styles.galeria}>
 
             <div className={styles.singlegaleria} >
-                <div className={styles.overflow}>
-                    <Image width='300px' height='300px' src={img1}/>
-                </div>
+                <Image width='300px' height='300px' src={img1}/>
+                <div className={styles.overflow}></div>
                 <div className={styles.conteudo}>
                     <h1 className={styles.conteudoh1}>Pokemons</h1>
                     <p className={styles.conteudop}>Todos os pokemons <br/> por <b>AGILDO JUNIOR</b></p>
                 </div>
+                
             </div>
 
             <div className={styles.singlegaleria} >
-                <div className={styles.overflow}>
-                    <Image width='300px' height='300px' src={img2}/>
-                </div>
+                <Image width='300px' height='300px' src={img2}/>
+                <div className={styles.overflow}></div>
                 <div className={styles.conteudo}>
                     <h1 className={styles.conteudoh1}>Tipos</h1>
                     <p className={styles.conteudop}>Tabela de tipos <br/> por <b>AGILDO JUNIOR</b></p>
@@ -30,15 +29,13 @@ export default function Fotoconteudo() {
             </div>
 
             <div className={styles.singlegaleria} >
-                <div className={styles.overflow}>
-                    <Image width='300px' height='300px' src={img3}/>
-                </div>
+                <Image width='300px' height='300px' src={img3}/>
+                <div className={styles.overflow}></div>
                 <div className={styles.conteudo}>
                     <h1 className={styles.conteudoh1}>Pokebolas</h1>
                     <p className={styles.conteudop}>Tipos de Pokebolas <br/> por <b>AGILDO JUNIOR</b></p>
                 </div>
             </div>
-
         </div>
     )
 }
