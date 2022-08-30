@@ -1,15 +1,16 @@
 import Link from 'next/link'
-import img1 from '../../../public/image/galeria/img1.png'
-import img2 from '../../../public/image/galeria/img2.png'
-import img3 from '../../../public/image/galeria/img3.png'
 import Image from 'next/image'
 import styles from './Cardpokemon.module.css'
 
-export default function Fotoconteudo() {
+
+export default function Cardpokemon({pokemon}) {
     return(
-        <div className={styles.card}>
-            <Image width='170px' height='170px' src={img1} />
-            <h1 className={styles.cardh1}>Giratina</h1>
-        </div>
+        <Link href={`/Pokemons/${pokemon.id}`}>
+            <div className={styles.card}>
+                <Image className={styles.imgpok} width='200px' height='200px' src={`https://cdn.traction.one/pokedex/pokemon/${pokemon.id}.png`} />
+                <p className={styles.cardp}>N°{pokemon.id}</p>
+                <h1 className={styles.cardh1}>{pokemon.name}</h1>
+            </div>
+        </Link>
     )
 }

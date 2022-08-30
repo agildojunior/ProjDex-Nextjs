@@ -8,7 +8,7 @@ import styles from './Fotoconteudo.module.css'
 export default function Fotoconteudo() {
     return(
         <div className={styles.galeria}>
-
+        <Link href="/Pokemons">
             <div className={styles.singlegaleria} >
                 <Image width='300px' height='300px' src={img1}/>
                 <div className={styles.overflow}></div>
@@ -16,9 +16,9 @@ export default function Fotoconteudo() {
                     <h1 className={styles.conteudoh1}>Pokemons</h1>
                     <p className={styles.conteudop}>Todos os pokemons <br/> por <b>AGILDO JUNIOR</b></p>
                 </div>
-                
             </div>
-
+        </Link>
+        <Link href="/Tipos">
             <div className={styles.singlegaleria} >
                 <Image width='300px' height='300px' src={img2}/>
                 <div className={styles.overflow}></div>
@@ -27,7 +27,8 @@ export default function Fotoconteudo() {
                     <p className={styles.conteudop}>Tabela de tipos <br/> por <b>AGILDO JUNIOR</b></p>
                 </div>
             </div>
-
+        </Link>
+        <Link href="/Pokebolas">
             <div className={styles.singlegaleria} >
                 <Image width='300px' height='300px' src={img3}/>
                 <div className={styles.overflow}></div>
@@ -36,6 +37,7 @@ export default function Fotoconteudo() {
                     <p className={styles.conteudop}>Tipos de Pokebolas <br/> por <b>AGILDO JUNIOR</b></p>
                 </div>
             </div>
+        </Link>
         </div>
     )
 }

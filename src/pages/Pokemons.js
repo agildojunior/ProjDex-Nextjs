@@ -6,20 +6,39 @@ import img from '../../public/image/PokemikioLogo.png'
 import Navbar from '../Components/navbar/Navbar'
 import Cardpokemon from '../Components/Cardpokemon/Cardpokemon'
 
+export async function getStaticProps() {
 
-export default function Pokemons() {
+  const maxPokemons = 9
+  const api = 'https://pokeapi.co/api/v2/pokemon/'
+
+  const res = await fetch(`${api}/?limit=${maxPokemons}`)
+  const data = await res.json()
+
+  data.results.forEach((item, index) => {
+    item.id = index + 1
+  })
+  
+  return {
+    props: {
+      pokemons: data.results,
+    },
+  }
+
+}
+
+export default function Pokemons({ pokemons}) {
   return (
     <div className={styles.divprincipal}>
       <div className={styles.BackgroundDex}>
         <Navbar></Navbar>
         <div className={styles.container920}>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <Cardpokemon/>
+          <div className={styles.containerlistapok}>
 
+            {pokemons.map((pokemon) => (
+              <Cardpokemon key={pokemon.id} pokemon={pokemon}/>
+            ))}
+
+          </div>
         </div>
         <div className={styles.logoPrincipal}>
           <Image src={img} width='580px' height='260px'  />
