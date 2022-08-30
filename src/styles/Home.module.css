@@ -48,6 +48,9 @@
     display: flex;
     flex-wrap: wrap;
 }
+.infopok{
+    margin-top: 80px;
+}
 
 .logoPrincipal{
     margin-top: 33px;

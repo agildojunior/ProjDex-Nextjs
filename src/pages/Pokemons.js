@@ -8,7 +8,7 @@ import Cardpokemon from '../Components/Cardpokemon/Cardpokemon'
 
 export async function getStaticProps() {
 
-  const maxPokemons = 9
+  const maxPokemons = 151
   const api = 'https://pokeapi.co/api/v2/pokemon/'
 
   const res = await fetch(`${api}/?limit=${maxPokemons}`)
@@ -37,6 +37,7 @@ export default function Pokemons({ pokemons}) {
             {pokemons.map((pokemon) => (
               <Cardpokemon key={pokemon.id} pokemon={pokemon}/>
             ))}
+            
 
           </div>
         </div>
