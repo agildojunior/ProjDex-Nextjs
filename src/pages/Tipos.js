@@ -4,6 +4,7 @@ import styles from '../styles/Home.module.css'
 import Link from 'next/link'
 import img from '../../public/image/PokemikioLogo.png'
 import Navbar from '../Components/navbar/Navbar'
+import Tabela from '../Components/Tabela/Tabela'
 
 
 export default function Tipos() {
@@ -12,7 +13,7 @@ export default function Tipos() {
       <div className={styles.BackgroundDex}>
         <Navbar></Navbar>
         <div className={styles.container920}>
-          <h1>Tipos</h1>
+          <Tabela></Tabela>
 
         </div>
         <div className={styles.logoPrincipal}>

@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css?family-Montserrat:600|Open+Sans:600&display-swap');
+
+.titulo{
+    margin-top: 100px;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 40px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.80)
+}
+.tabela{
+    border-collapse: collapse;
+    max-height: 400px;
+    overflow-x: hidden;
+}
+
+.tabela thead{
+    background-color: rgb(15, 15, 15);
+}
+
+.tabela thead tr th{
+    text-align: left;
+    color: white;
+    max-width: 80px;
+    height: 30px;
+
+}
+
+.tdbranco{
+    background-color: white;
+    color: black;
+}
+.tdvermelho{
+    background-color: red;
+    color: white;
+}
+.tdverde{
+    background-color: #7c5;
+    color: black;
+}
+.tdpreto{
+    background-color: black;
+    color: white;
+}
+
+
+.tabela th, .tabela td{
+    font-family: 'Montserrat' , sans-serif;
+    text-transform: uppercase;
+    font-size: 0.7em;
+    padding: 5px;
+    box-sizing: border-box;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    max-width: 150px;
+}
+
+.types_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 12px;
+}
+  
+.type {
+padding: 0.6em 1em;
+color: #fff;
+background-color: rgb(255, 255, 255);
+margin-right: 0.5em;
+border: 1px solid #ccc;
+border-radius: 6px;
+text-transform: uppercase;
+font-size: 0.8em;
+}
+
+.type_normal {
+background-color: #aa9;
+color: white;
+}
+
+.type_fire {
+background-color: #f42;
+color: white;
+}
+
+.type_water {
+background-color: #39f;
+color: white;
+}
+
+.type_eletric {
+background-color: #fc3;
+color: white;
+}
+
+.type_grass {
+background-color: #7c5;
+color: white;
+}
+
+.type_ice {
+background-color: #6cf;
+color: white;
+}
+
+.type_fighting {
+background-color: #b54;
+color: white;
+}
+
+.type_poison {
+background-color: #a59;
+color: white;
+}
+
+.type_ground {
+background-color: #db5;
+color: white;
+}
+
+.type_flying {
+background-color: #89f;
+color: white;
+}
+
+.type_psychic {
+background-color: #f59;
+color: white;
+}
+
+.type_bug {
+background-color: #ab2;
+color: white;
+}
+
+.type_rock {
+background-color: #ba6;
+color: white;
+}
+
+.type_ghost {
+background-color: #66b;
+color: white;
+}
+
+.type_dragon {
+background-color: #76e;
+color: white;
+}
+
+.type_dark {
+background-color: #754;
+color: white;
+}
+
+.type_steel {
+background-color: #aab;
+color: white;
+}
+
+.type_fairy {
+background-color: #e9e;
+color: white;
+}
