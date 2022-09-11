@@ -14,8 +14,9 @@ export default function Pokebolas() {
         <Navbar></Navbar>
         <div className={styles.container920}>
           <h1 className={styles.titulobranco}>Pokebolas</h1>
-          <Image src={imgpokebolas} width='880px' height='500px'  />
-
+          <div className={styles.divpokebolas}>
+            <Image src={imgpokebolas} width='880px' height='500px'  />
+          </div>
         </div>
         <div className={styles.logoPrincipal}>
           <Image src={img} width='580px' height='260px'/>

@@ -52,6 +52,11 @@
     margin-top: 80px;
 }
 
+.divpokebolas{
+    border-radius: 30px;
+    overflow: auto;
+}
+
 .titulobranco{
     margin-top: 100px;
     margin-bottom: 20px;
