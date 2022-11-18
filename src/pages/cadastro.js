@@ -4,14 +4,14 @@ import styles from '../styles/Home.module.css'
 import Link from 'next/link'
 import img from '../../public/image/PokemikioLogo.png'
 import Navbar from '../Components/navbar/Navbar'
-import LoginForm from '../Components/LoginForm/LoginForm'
+import CadastroForm from '../Components/CadastroForm/CadastroForm'
 
 export default function Home() {
   return (
     <div className={styles.divprincipal}>
       <div className={styles.BackgroundDex}>
         <div className={styles.containerlogin}>
-          <LoginForm></LoginForm>
+          <CadastroForm></CadastroForm>
 
         </div>
       </div>

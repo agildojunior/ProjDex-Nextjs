@@ -1,12 +1,12 @@
 import Link from 'next/link'
-import styles from './LoginForm.module.css'
+import styles from './CadastroForm.module.css'
 
-export default function LoginForm() {
+export default function CadastroForm() {
     return(
         <div className={styles.galeria}>
             
             <div className={styles.cardlogin}>
-                <h1>LOGIN</h1>
+                <h1>Cadastro</h1>
                 <div className={styles.textfield}>
                     <label for="usuario">Usuário</label>
                     <input type="text" name="usuario" placeholder="Usuário"></input>
@@ -15,14 +15,11 @@ export default function LoginForm() {
                     <label for="password">Senha</label>
                     <input type="password" name="password" placeholder="Senha"></input>
                 </div>
-                <button className={styles.btnlogin}>Login</button>
-                <div className={styles.divsocial}>
-                    <button className={styles.btnsocial}>f</button>
-                    <button className={styles.btnsocial}>f</button>
-                    <button className={styles.btnsocial}>f</button>
-                    <button className={styles.btnsocial}>f</button>
+                <div className={styles.textfield}>
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" placeholder="E-mail"></input>
                 </div>
-                <a href='' className={styles.acadastro}>Cadastre-se</a>
+                <button className={styles.btnlogin}>Cadastrar</button>
             </div>
 
         </div>

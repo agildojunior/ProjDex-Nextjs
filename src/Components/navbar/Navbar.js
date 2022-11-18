@@ -14,7 +14,7 @@ export default function Navbar() {
                         </a>
                     </li>
                     <li className={styles.linav}>
-                        <Link href="/">
+                        <Link href="/inicio">
                             <a className={styles.anav}>Inicio</a>
                         </Link>
                     </li>
