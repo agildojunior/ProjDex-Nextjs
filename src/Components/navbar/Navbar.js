@@ -36,6 +36,11 @@ export default function Navbar() {
                             <a className={styles.anav}>Pokebolas</a>
                         </Link>
                     </li>
+                    <li className={styles.linav}>
+                        <Link href="/">
+                            <a className={styles.anav}>Sair</a>
+                        </Link>
+                    </li>
                 </div>
                 
             </ul>

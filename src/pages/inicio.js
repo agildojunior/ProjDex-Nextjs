@@ -13,6 +13,43 @@ export default function Home() {
         <Navbar></Navbar>
         <div className={styles.container920}>
           <Fotoconteudo></Fotoconteudo>
+        { 1 == 1 ?(
+
+          <table className={styles.tabela}> 
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Nome</th>
+                <th>Email</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Tonzinho</td>
+                <td>Toon@gmail.com</td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>Tonzinho</td>
+                <td>Toon@gmail.com</td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>Tonzinho</td>
+                <td>Toon@gmail.com</td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>Tonzinho</td>
+                <td>Toon@gmail.com</td>
+              </tr>
+            </tbody>
+          </table>
+
+        ) : (
+          <h1></h1>
+        )}
 
         </div>
         <div className={styles.logoPrincipal}>

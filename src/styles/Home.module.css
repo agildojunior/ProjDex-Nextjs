@@ -82,6 +82,12 @@
     font-size: 40px;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.80)
 }
+.titulobranco2{
+    margin-bottom: 10px;
+    color: white;
+    font-size: 40px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.80)
+}
 
 .logoPrincipal{
     margin-top: 33px;
@@ -89,6 +95,34 @@
     animation: movecimabaixo 5s linear infinite;
     animation-delay: 1000ms;
 }
+
+.tabela{
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 100%;
+    border-collapse: collapse;
+    overflow-x: hidden;
+}
+
+.tabela thead{
+    background-color: rgba(15, 15, 15, 0.456);
+}
+.tabela thead tr th{
+    padding: 15px;
+    text-align: left;
+    color: white;
+}
+
+.tabela tbody{
+    background-color: rgba(15, 15, 15, 0.213);
+}
+.tabela tbody td{
+    border-top: solid 1px rgba(51, 51, 51, 0.539);
+    padding: 15px;
+    text-align: left;
+    color: white;
+}
+
 @keyframes movecimabaixo {
     0% {
         transform: translateX(0px);
