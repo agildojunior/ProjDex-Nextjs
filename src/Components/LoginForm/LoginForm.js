@@ -15,7 +15,7 @@ export default function LoginForm() {
                     <label for="password">Senha</label>
                     <input type="password" name="password" placeholder="digite sua senha..."></input>
                 </div>
-                <button className={styles.btnlogin} href="/inicio" >Login</button>
+                <a className={styles.btnlogin} href="/inicio" >Login</a>
 
                 <div className={styles.divsocial}>
                     <button className={styles.btnsocial}>
